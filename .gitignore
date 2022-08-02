@@ -25,9 +25,19 @@ ipch
 *.suo
 *.VC.db
 *.VC.VC.opendb
+imgui.dir
+*.vcxproj*
 
 ## Commonly used CMake directories
 /build*/
+Debug/
+Release/
+CMakeFiles/
+
+## CMake artifacts
+CMakeCache.txt
+cmake_install.cmake
+cmake_uninstall.cmake
 
 ## Xcode artifacts
 project.xcworkspace
